@@ -56,7 +56,7 @@ export function Content() {
       setRepositories(response.data)
     }
     sendData()
-
+    console.log('mensagem enviada', nome, citacao, minibio, imagem)
     setSuccess(true)
     setNome('')
     setminibio('')
